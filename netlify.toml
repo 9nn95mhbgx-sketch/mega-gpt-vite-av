@@ -1,4 +1,4 @@
-cat > netlify.toml <<'TOML'
+cat > netlify.toml <<'EOF'
 [build]
   command = "npm run build"
   publish = "dist"
@@ -9,4 +9,4 @@ cat > netlify.toml <<'TOML'
   to = "/.netlify/functions/:splat"
   status = 200
   force = true
-TOML
+EOF
