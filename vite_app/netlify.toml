@@ -1,6 +1,6 @@
 [build]
-  command = "npm run build"
-  publish = "dist"
+  command = "cd vite_app && npm run build"
+  publish = "vite_app/dist"
   functions = "netlify/functions"
 
 [[redirects]]
